@@ -1,3 +1,4 @@
+
 /*Write a program to enter any number, then store its reverse in another variable and
 then print it */
 
@@ -12,17 +13,21 @@ class Palindrom{
 		System.out.println("Enter your number: ");
 
 		int num = sc.nextInt();
-
+        int temp = num;
         int rev = 0;
 
         if (num < 10) {
-            System.out.println(num);
+            System.out.println("Yes Palindrom");
         }
         else{
             while (num > 0) {
                 rev = rev*10 + (num%10);
                 num = num/10;
             }
+            if(temp==rev)
+                System.out.println("Yes Palindrom");
+            else
+                System.out.println("Not Palindrom");
         }
        sc.close();
 	}
