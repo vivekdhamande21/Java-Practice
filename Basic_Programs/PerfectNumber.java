@@ -18,6 +18,5 @@ class PerfectNumber{
 		    System.out.println("Your number is Perfact: " + num);
 		else
 		    System.out.println("Sorry your number is Not Perfact Please choose another number");
-	
 	}
 }
