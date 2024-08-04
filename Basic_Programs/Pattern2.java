@@ -3,14 +3,14 @@ Note: Number of rows and columns shall be the input parameters
 to the function
 Rectangle
 ****
-****
-****
-****
+*  *
+*  *
+*  *
 ****
 
 */
 import java.util.*;
-class Pattern1{
+class Pattern2{
 	public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter row");
@@ -21,7 +21,12 @@ class Pattern1{
   		while(row > 0) { 
             col = colTemp;
             while(col > 0){
-                System.out.print("*");
+                if((row > 1 && row < 5) &&(col > 1 && col < 4)){
+                    System.out.print(" ");
+                }
+                else{
+                    System.out.print("*");
+                }
                 col--;
             }
             System.out.println("");
