@@ -3,14 +3,15 @@ Note: Number of rows and columns shall be the input parameters
 to the function
 Rectangle
 
-]  *
-  **
- ***
+*****
 ****
+***
+**
+*
 
 */
 import java.util.*;
-class Pattern9{
+class Pattern10{
 	public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter row");
@@ -18,9 +19,9 @@ class Pattern9{
         int rowTemp = row;
         int i;
   		while(row > 0) { 
-            i  = 0;
-            while( rowTemp >  i){
-                if(i >= row-1 ){
+            i  = 1;
+            while(i < rowTemp+1){
+                if(i <= row ){
                     System.out.print("*");
                 }
                 else{
@@ -32,4 +33,4 @@ class Pattern9{
             row--;
         }        
 	}	
-}
+} 
