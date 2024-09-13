@@ -2,10 +2,12 @@
 Note: Only number of columns will be the input parameter to the 
 function
 Mirrored half diamond
-
-11111
 11011
-11111
+11011
+00000
+11011
+11011
+
 
  */
 

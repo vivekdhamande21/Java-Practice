@@ -20,7 +20,6 @@ class Pattern11{
         int i;
   		while(row > 0) { 
             i  = 1;
-            int j=0;
             while( rowTemp >= i){
                 if(i<=row){
                     if((i>1&&i<row) && (row<rowTemp))
@@ -35,7 +34,6 @@ class Pattern11{
             }
             System.out.println("");
             row--;
-            j++;
         }        
 	}	
 }
