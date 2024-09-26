@@ -69,5 +69,6 @@ Mirrored half diamond
             temp2=temp-b;
          }
     
-    }        
+    }  
+          
 }
